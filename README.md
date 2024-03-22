@@ -117,4 +117,9 @@ Then, you can start querying your iceberg table.
 select * from iceberg_scan(‘s3://chapter-platform-iceberg/icebergs/line_item’);
 ```
 
+Finally, you can write your table back to S3, where it's accessible for further use.
+```sql
+COPY line_item TO 's3://chapter-platform-iceberg/parquets/line_item.parquet';
+```
+
 Enjoy!
