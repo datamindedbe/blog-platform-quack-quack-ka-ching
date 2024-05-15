@@ -1,6 +1,6 @@
 # Quack Quack Ka-Ching
 Playbook for reading snowflake-managed iceberg tables with DuckDB.
-Blog post at https://medium.com/datamindedbe
+Blog post at https://medium.com/datamindedbe/quack-quack-ka-ching-cut-costs-by-querying-snowflake-from-duckdb-f19eff2fdf9d
 
 ### Preparation on AWS
 Make an S3 bucket, in our case `chapter-platform-iceberg`.
